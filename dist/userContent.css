@@ -1,0 +1,25 @@
+@import "rose-pine-main.css";
+
+/* ── Web page select/dropdown contrast fix ── */
+select {
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--overlay) !important;
+}
+
+option {
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+option:hover,
+option:focus,
+option:checked {
+  background-color: var(--highlightMed) !important;
+  color: var(--text) !important;
+}
+
+optgroup {
+  background-color: var(--base) !important;
+  color: var(--subtle) !important;
+}
