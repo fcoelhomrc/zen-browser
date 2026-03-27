@@ -69,3 +69,24 @@ toolbar .toolbarbutton-1 {
     }
   }
 }
+
+
+/* ── Dropdown / menulist contrast fix ── */
+menulist,
+menulist > menupopup,
+.menulist-popup {
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+menuitem,
+menuitem:not([disabled]) {
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+}
+
+menuitem:hover,
+menuitem[_moz-menuactive="true"] {
+  background-color: var(--highlightMed) !important;
+  color: var(--text) !important;
+}
